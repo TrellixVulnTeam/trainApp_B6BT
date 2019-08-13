@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d8abce-ff8d-4753-81aa-02cffc61c0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/djangoApp/templates/user_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/train/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/djangoApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/djangoApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/train/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/train/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/train/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/train/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -33,6 +35,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />

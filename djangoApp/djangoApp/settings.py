@@ -122,6 +122,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+# Where uploaded files will be located on the filesystem
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# How we're going to access the image in the browser
+MEDIA_URL = '/media/'
+
 LOGIN_REDIRECT_URL = 'home'
 LOGIN_URL = 'login'
-# LOGOUT_REDIRECT_URL = ?  
+# LOGOUT_REDIRECT_URL = ?
