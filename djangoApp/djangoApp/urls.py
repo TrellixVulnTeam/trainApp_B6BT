@@ -14,8 +14,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # Handles all routes after and including '/' home route
+    # All routes for / and e.g. /home are in train/urls
+    # Django best practices?
+    # When someone goes to the / (home) route Django will get rid of '/' and go to train/urls
+    # Where it will find a route that matches the string that proceeds the '/'
+    # E.g. /home -> train/urls finds and returns home route
+    path('', include('train.urls')),
 ]

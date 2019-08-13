@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5d8abce-ff8d-4753-81aa-02cffc61c0fc" name="Default Changelist" comment="" />
+    <list default="true" id="d5d8abce-ff8d-4753-81aa-02cffc61c0fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/djangoApp/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/train/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/train/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/djangoApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/djangoApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/train/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
