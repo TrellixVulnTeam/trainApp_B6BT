@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d5d8abce-ff8d-4753-81aa-02cffc61c0fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/user_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
