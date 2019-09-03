@@ -68,18 +68,30 @@
         </button>
         <div class="collapse navbar-collapse mr-auto" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
+
+                              {% if user.is_authenticated %}
+          <!–– Logged in ––>
             <li class="nav-item">
-              <a class="nav-link navLink" href="#">Social</a>
+              <a class="nav-link navLink" href="{% url 'home' %}">Social</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navLink" href="#">Profile</a>
+              <a class="nav-link navLink" href="{% url 'profile' %}">Profile</a>
             </li>
             <li class="nav-link navLink">
-              <a class="navLink nav-link" href="#">Training</a>
+              <a class="navLink nav-link" href="{% url 'home' %}">Training</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navLink" href="#">Diet</a>
+              <a class="nav-link navLink" href="{% url 'home' %}">Diet</a>
             </li>
+
+            {% else %}
+            <li class="nav-item">
+              <a class="nav-link navLink" href="{% url 'login' %}">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLink" href="{% url 'register' %}">Register</a>
+            </li>
+            {% endif %}
             <li class="nav-item">
               <a class="nav-link navLink" href="#"><i class="fas fa-search"></i></a>
             </li>
@@ -109,7 +121,7 @@
       {% else %}
       <li class="nav-item">
         <a class="nav-link" href="{% url 'login' %}"><i class=""></i> Login</a>
-      </li>
+      </li>blogo1.png
       <li class="nav-item">
         <a class="nav-link" href="{% url 'register' %}"><i class=""></i> Register</a>
       </li>
