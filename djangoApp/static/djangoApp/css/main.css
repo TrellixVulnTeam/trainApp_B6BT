@@ -1,0 +1,198 @@
+#banner_top{
+    background-color:blue;
+}
+li a {
+    color: green;
+}
+
+/*Header*/
+.navLink{
+    color:black;
+    display: block;
+    padding: .125rem 1.5rem;
+    font-family:Bahnschrift;
+    font-size:20px;
+    margin-bottom: -35px;
+    padding-bottom: 35px;
+     margin-top: -20px;
+    padding-top: 20px;
+
+}
+.navLink:hover{
+    background-color: black;
+    color:white;
+}
+
+.navbar-toggler-icon{
+    color:black;
+    font-size:30px;
+    margin-top:20px;
+}
+#logoImg{
+    z-index:3;
+}
+.borderDiv{
+    display:flex;
+    flex-basis:auto;
+    flex-wrap: nowrap;
+    position:absolute;
+    padding-right:1rem;
+    padding-left:1rem;
+    bottom:0;
+    height:6px;
+    width:100%;
+    border-radius:1px;
+    background-color:black;
+    margin-right: auto!important;
+    position:relative;
+}
+.borderTopDiv{
+    display:flex;
+    flex-basis:auto;
+    flex-wrap: nowrap;
+    position:absolute;
+    padding-right:1rem;
+    padding-left:1rem;
+    top:0;
+    height:6px;
+    width:100%;
+    border-radius:1px;
+    background-color:black;
+    margin-right: auto!important;
+}
+.navbar{
+    padding:0;
+}
+.navImg{
+     /*border: 5px solid black;*/
+      margin-bottom: -5px;
+      padding:8px;
+      margin-top:20px;
+}
+.navImg:hover{
+    background-color:black;
+}
+
+
+/*Background Color*/
+body{
+    background-color:#F9F9F9;
+}
+/*Footer*/
+#footer{
+    position:absolute;
+    bottom:50px;
+    width:100%;
+    margin-bottom:20px;
+}
+.footerText{
+    color:black;
+}
+
+#footCont{
+    position:absolute;
+    bottom:0;
+    height:auto;
+    width:100%;
+    display:inline-block;
+    padding-bottom: 20px;
+}
+#footerBottom{
+    height:50px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+#footerBottomCont{
+    width:100%;
+    height:100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:right;
+
+    /*vertical-align:middle;*/
+}
+#footerBottomText{
+    text-align:right;
+    vertical-align:middle;
+    color:black;
+    font-size:1em;
+    margin-bottom:0;
+     font-family:Bahnschrift;
+}
+
+#borderCont{
+    position:relative;
+    width:100%;
+     margin-bottom:20px;
+
+}
+#footCenter{
+    height:100px;
+    width:100%;
+    margin-bottom: 15px;
+    position:relative;
+}
+#footCenterTopCont{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:60%;
+}
+#footCenterTop{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#footCenterBottomCont{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40%;
+}
+#footCenterBottom{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    color:black;
+}
+
+#blackScreen{
+    background-color:black;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:100;
+}
+#blackScreenCont{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#blackScreenContCont{
+    height:100%;
+    width:100%;
+    display:none;
+}
+#centImg{
+ position: relative;
+}
+#imgCont{
+    position:relative;
+    background-color:black;
+    border: 7.5px solid black;
+}
+#centImage:hover{
+    display:none;
+}

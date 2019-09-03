@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d8abce-ff8d-4753-81aa-02cffc61c0fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/djangoApp/static/djangoApp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/static/djangoApp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/static/djangoApp/javascript/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangoApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/djangoApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/user_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoApp/train/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/djangoApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/djangoApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/templates/base_url.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/base_url.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/train/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +39,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/djangoApp/static/djangoApp/images" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dmagu\Desktop\TRAIN_GIT\trainApp\djangoApp\static\djangoApp\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Daniel\Desktop\App\djangoApp\djangoApp\media" />
     </key>
@@ -57,6 +62,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="djangoApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/djangoApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/djangoApp/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.runserver" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -69,6 +102,9 @@
       <updated>1565522572794</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

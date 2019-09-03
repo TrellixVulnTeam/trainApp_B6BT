@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'djangoApp/css/main.css' %}"/>
+
   <title>Train Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -107,7 +112,7 @@
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<div class="jumbotron text-center" style="margin-bottom:0" id="footer">
   <p>Footer</p>
 </div>
 
