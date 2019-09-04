@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-7 col-md-7 col-lg-7" style="background-color:;">
+
+
+
+    <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Create Account</legend>
+            {{ s_form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="sumbmit">Sign Up</button>
+        </div>
+    </form>
+
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Already have an account? <a class="ml-2" href="{% url 'login' %}">Log In</a>
+        </small>
+    </div>
+
+    </div>
+
+          <div class="text-center col-sm-5 col-md-5 col-lg-5" style="border:1px solid black;">
+            <div class="row h-100">
+                <div class="col-sm-12 my-auto">
+                    <div class="mx-auto">IMG HERE</div>
+                </div>
+            </div>
+          </div>
+
+  </div>
+</div>
+{% endblock content %}
