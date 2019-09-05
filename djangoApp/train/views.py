@@ -8,12 +8,36 @@ from django.contrib.auth import authenticate, login, logout
 # Create your views here.
 
 def home(request):
-    return render(request, "home.html", {})
+    if checkRegisterStatus(request) == 'registerProfile':
+        messages.success(request, f'Your account setup is not finished!')
+        return redirect('registerProfile')
+    if checkRegisterStatus(request) == 'registerStats':
+        messages.success(request, f'Your account setup is not finished!')
+        return redirect('registerStats')
+    else:
+        return render(request, "home.html", {})
 
 def about(request):
-    return render(request, "about.html", {})
+    if checkRegisterStatus(request) == 'registerProfile':
+        messages.success(request, f'Your account setup is not finished!')
+        return redirect('registerProfile')
+    if checkRegisterStatus(request) == 'registerStats':
+        messages.success(request, f'Your account setup is not finished!')
+        return redirect('registerStats')
+    else:
+        return render(request, "about.html", {})
 
 # User Routes
+def checkRegisterStatus(request):
+    if request.user.is_authenticated:
+        if request.user.profile.fullname == None:
+            return "registerProfile"
+        elif request.user.profile.stats.height == None:
+            return "registerStats"
+        else:
+            return 'home'
+    else:
+        return 'home'
 
 def register(request):
     if request.method == 'POST':
