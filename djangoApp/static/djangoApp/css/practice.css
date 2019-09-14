@@ -1,0 +1,391 @@
+/*
+
+Practice CSS
+
+*/
+
+.form-row {
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-row label {
+    padding-right: 10px;
+}
+
+.form-row input {
+/* If we want a element to be the same size as its siblings we get it a flex value of 1 */
+    flex: 1;
+}
+
+.column-layout {
+    margin: 100px auto 0 auto;
+    display: flex;
+}
+
+.main-column {
+    flex: 2;
+    order: 2;
+}
+
+.sidebar-one {
+    flex: 1;
+    order: 1;
+}
+
+
+.sidebar-two {
+    flex: 1;
+    order: 3;
+}
+
+
+.call-outs-container {
+    margin: 40px auto 0 auto;
+    /* Aligning group items */
+    /*align-items: flex-start; */
+    /*align-items: flex-end;*/
+    /*align-items: center;*/
+    /* default is */ /* align-items: stretch; */
+}
+
+.call-out {
+    /*flex: 1;*/
+    flex-basis: 30%;
+}
+
+@media (min-width: 900px) {
+    .call-outs-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*
+Targeting specific items in a class group
+.call-out:last-child {
+    margin-right 0;
+}
+*/
+
+.call-out:nth-child(1) {background-color: #c0dbe2;}
+.call-out:nth-child(2) {background-color: #cdf1c3;}
+.call-out:nth-child(3) {background-color: #ccb9da;}
+
+
+.fixed-size-container {
+    background-color: #FFF;
+    max-width: 1400px;
+    /* Margin 40 here separates it from above elements */
+    margin: 40px auto 0 auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fixed-size {
+    width: 150px;
+    height: 100px;
+    background-color: #990b47;
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+
+.banner {
+    background-color: #2a2a2a;
+    margin: 100px auto 0 auto;
+    padding: 30px 0;
+    display: flex;
+}
+
+.center-me {
+    font-size: 50px;
+    color: #FFF;
+    /* Used with flex box this will center this element as long as the parent element is using flex */
+    margin: auto;
+}
+
+
+.equal-height-container{
+    margin: 100px auto 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.first {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+}
+
+/* When you add display flex to an element it becomes a parent element for other child elements */
+/* Flex by default will divide child element space by row space flex-direction: row; */
+/* By using flex-direction we can change this, by using flex-direction: column; the space with now be divided by column space */
+
+.second{
+    background-color: yellow;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-a{
+    background-color: #c0dbe2;
+    flex: 1;
+}
+
+.second-b{
+    background-color: #cdf1c3;
+    flex: 1;
+}
+
+
+
+
+
+
+/*
+
+Register Divs
+
+*/
+
+.main-div {
+    background-color: #d3d3d3;
+    display: flex;
+}
+
+.right-side {
+    background-color: #778899;
+    flex: 1;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.form-group-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.reg-form-input{
+    border: 3px solid black;
+    margin: 40px auto 0 auto;
+}
+
+/*
+.reg-form-input:nth-child(1){
+    border:    3px solid black;
+    margin: 40px auto 0 auto;
+}
+
+.reg-form-input:nth-child(2){
+    border:    3px solid black;
+    margin: 40px auto 0 auto;
+}
+
+.reg-form-input:nth-child(3){
+    border:    3px solid black;
+    margin: 40px auto 0 auto;
+}
+
+.reg-form-input:nth-child(4){
+    border:    3px solid black;
+    margin: 40px auto 0 auto;
+}
+*/
+
+.reg-form-input {
+    width: 350px;
+    display: flex;
+    text-align: center;
+    margin: 40px auto 0 auto;
+}
+
+.reg-form-input-error {
+    border-right: 3px solid black;
+    border-left:  3px solid black;
+    border-bottom: 3px solid black;
+    width: 350px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    background-color: #fff;
+    font-weight: bold;
+    color: red;
+}
+
+.reg-legend {
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+.reg-button {
+  border:    3px solid black;
+  display: block;
+  cursor: pointer;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  /*width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;*/
+}
+
+input:focus {
+    outline: none;
+}
+
+.reg-input1  {
+        width: 100%;
+        text-align: center;
+        border: none;
+        /*
+        background-position-x: 7px;
+        background-position-y: 3px;
+        padding-left: 10px;
+        background-size: 15px;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        background-image: url('../../media/user.svg');
+        border-top:    3px solid black;
+        border-left:  3px solid black;
+        border-bottom: 3px solid black;*/
+        /*border-radius: 8px;*/
+}
+
+.reg-input2  {
+        width: 100%;
+        text-align: center;
+        border: none;
+        /*
+        background-position-x: 7px;
+        background-position-y: 3px;
+        padding-left: 10px;
+        background-size: 15px;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        background-image: url('../../media/at_sym.svg');
+        border-top:    3px solid black;
+        border-left:  3px solid black;
+        border-bottom: 3px solid black;*/
+        /*border-radius: 8px;*/
+}
+
+.reg-input3  {
+        width: 100%;
+        text-align: center;
+        border: none;
+        /*
+        background-position-x: 7px;
+        background-position-y: 3px;
+        padding-left: 10px;
+        background-size: 15px;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        background-image: url('../../media/lock_open.svg');
+        border-top:    3px solid black;
+        border-left:  3px solid black;
+        border-bottom: 3px solid black;*/
+        /*border-radius: 8px;*/
+}
+
+.reg-input4  {
+        width: 100%;
+        text-align: center;
+        border: none;
+        /*
+        background-position-x: 7px;
+        background-position-y: 3px;
+        padding-left: 10px;
+        background-size: 15px;
+        background-repeat: no-repeat;
+        font-size: 15px;
+        background-image: url('../../media/lock_closed.svg');
+        border-top:    3px solid black;
+        border-left:  3px solid black;
+        border-bottom: 3px solid black;*/
+        /*border-radius: 8px;*/
+}
+
+.icon {
+        padding-top: 4px;
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+}
+
+.eye-div {
+    width: 10%;
+    background-color: white;
+}
+
+.fa {
+    cursor: pointer;
+    /*border:    3px solid black;*/
+    /*background-color: white;*/
+}
+
+.fa-eye {
+    padding-top: 3.25px;
+    font-size: 20px;
+}
+
+.fa-eye-slash {
+    padding-top: 5px;
+    font-size: 17.9px;
+}
+
+/*
+
+
+Attempts to use nth-child for input elements
+
+
+*/
+
+
+
+
+/*
+.left-side .reg-form-input .reg-input:nth-child(1)  {
+        background-image: url('../../media/user.svg');
+}
+
+.left-side .reg-form-input .reg-input:nth-child(2)  {
+        background-image: url('../../media/at_sym.svg');
+}
+*/
+
+/*
+.reg-input:nth-child(1) {
+    background-image: url('../../media/user.svg');
+}
+
+.reg-input:nth-child(2) {
+    background-image: url('../../media/at_sym.svg');
+}
+
+.reg-input:nth-child(3) {
+    background-image: url('../../media/lock_open.svg');
+}
+
+.reg-input:nth-child(4) {
+    background-image: url('../../media/lock_closed.svg');
+}
+*/

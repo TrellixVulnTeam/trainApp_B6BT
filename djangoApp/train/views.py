@@ -46,6 +46,7 @@ def register(request):
             form.save()
             username = form.cleaned_data.get('username')
             password = form.cleaned_data.get('password1')
+            print(username)
             user = authenticate(request, username=username, password=password)
             login(request, user)
             return redirect('registerProfile')
@@ -102,3 +103,16 @@ def profile(request):
         'p_form': p_form
     }
     return render(request, "user_profile.html", context)
+
+
+
+
+
+
+
+# Practice URLS
+def registerPrac(request):
+    return render(request, "registerPrac.html", {})
+
+def practice(request):
+    return render(request, "practice.html", {})

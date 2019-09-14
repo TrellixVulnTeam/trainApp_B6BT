@@ -2,39 +2,125 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-7 col-md-7 col-lg-7" style="background-color:;">
+
+<div class="main-div">
+
+    <div class="left-side">
+
+
+        <form method="POST">
+                {% csrf_token %}
+
+                    <legend class="reg-legend">Create Account</legend>
+
+
+            <div class="form-group-up">
+
+
+                {% if form.username.errors %}
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-user-alt icon"></div>
+                        <input type="text" class="reg-input1" maxlength="35" name="username"  placeholder="Username">
+                        <div class="eye-div"></div>
+                    </div>
+                        {% for error in form.username.errors %}
+                        <div class="reg-form-input-error">
+                        {{ error }}
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-user-alt icon"></div>
+                        <input type="text" class="reg-input1" maxlength="35" name="username"  placeholder="Username">
+                        <div class="eye-div"></div>
+                    </div>
+                {% endif %}
 
 
 
-    <form method="POST">
-        {% csrf_token %}
-        <fieldset class="form-group">
-            <legend class="border-bottom mb-4">Create Account</legend>
-            {{ form|crispy }}
-        </fieldset>
-        <div class="form-group">
-            <button class="btn btn-outline-info" type="sumbmit">Sign Up</button>
-        </div>
-    </form>
 
-    <div class="border-top pt-3">
-        <small class="text-muted">
-            Already have an account? <a class="ml-2" href="{% url 'login' %}">Log In</a>
-        </small>
-    </div>
 
-    </div>
 
-          <div class="text-center col-sm-5 col-md-5 col-lg-5" style="border:1px solid black;">
-            <div class="row h-100">
-                <div class="col-sm-12 my-auto">
-                    <div class="mx-auto">IMG HERE</div>
-                </div>
+                {% if form.email.errors %}
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-at icon"></div>
+                        <input type="text" class="reg-input2" maxlength="35" name="email" placeholder="Email">
+                        <div class="eye-div"></div>
+                    </div>
+                        {% for error in form.email.errors %}
+                        <div class="reg-form-input-error">
+                        {{ error }}
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-at icon"></div>
+                        <input type="text" class="reg-input2" maxlength="35" name="email" placeholder="Email">
+                        <div class="eye-div"></div>
+                    </div>
+                {% endif %}
+
+
+
+
+
+
+                {% if form.password1.errors %}
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-user-alt icon"></div>
+                        <input id="pwd1" type="password" class="reg-input3" maxlength="35" name="password1" placeholder="Password">
+                        <div class="eye-div fa fa-eye" id="eye1" onclick="passReveal1()"></div>
+                    </div>
+                        {% for error in form.password1.errors %}
+                        <div class="reg-form-input-error">
+                        {{ error }}
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-user-alt icon"></div>
+                        <input id="pwd1" type="password" class="reg-input3" maxlength="35" name="password1" placeholder="Password">
+                        <div class="eye-div fa fa-eye" id="eye1" onclick="passReveal1()"></div>
+                    </div>
+                {% endif %}
+
+
+
+                {% if form.password2.errors %}
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-unlock icon"></div>
+                        <input id="pwd2"  type="password" class="reg-input4" maxlength="35" name="password2" placeholder="Password Confirmation">
+                        <div class="eye-div fa fa-eye" id="eye2" onclick="passReveal2()"></div>
+                    </div>
+                        {% for error in form.password2.errors %}
+                        <div class="reg-form-input-error">
+                        {{ error }}
+                        </div>
+                    {% endfor %}
+                {% else %}
+
+                    <div class="reg-form-input">
+                        <div class="eye-div fas fa-unlock icon"></div>
+                        <input id="pwd2"  type="password" class="reg-input4" maxlength="35" name="password2" placeholder="Password Confirmation">
+                        <div class="eye-div fa fa-eye" id="eye2" onclick="passReveal2()"></div>
+                    </div>
+                {% endif %}
+
             </div>
-          </div>
 
-  </div>
+
+
+            <button class="reg-button" type="sumbmit">Create</button>
+
+
+        </form>
+
+    </div>
+
+    <div class="right-side">
+
+
+    </div>
+
 </div>
 {% endblock content %}

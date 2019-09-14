@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Train Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://kit.fontawesome.com/ff429d8bc2.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-show-password.min.js"></script>
+
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static '/css/practice.css' %}"/>
+  <script src="{% static '/javascript/functions.js' %}"></script>
+
+
+    <style>
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    margin: 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 28px;
+}
+
+
+input:focus {
+    border-bottom: 2px solid blue;
+}
+
+
+.fa {
+    position: absolute;
+    left: 380px;
+    top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: green;
+}
+
+
+.fa.active {
+    color: blue;
+}
+
+  </style>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+  <i class="fa fa-eye" id="eye" onclick="passReveal()"></i>
+  <input type="password" id="pwd" placeholder="Password">
+
+</div>
+
+
+<p id="demo">Click the button to change the text in this paragraph.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+
+
+
+</body>
+</html>

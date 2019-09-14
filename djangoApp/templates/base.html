@@ -5,14 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://kit.fontawesome.com/ff429d8bc2.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static '/css/practice.css' %}"/>
   <script src="{% static '/javascript/base.js' %}"></script>
+  <script src="{% static '/javascript/functions.js' %}"></script>
 
   <style>
   .fakeimg {
@@ -153,52 +158,6 @@
                     {% block content %}{% endblock %}
     </div>
     <div class="text-center col-sm-1 col-md-1 col-lg-1" style="background-color:;"></div>
-  </div>
-</div>
-
-<div id="footCont" class="container-fluid">
-  <div class="row">
-  <div class="text-center col-sm-1 col-md-1 col-lg-1" style="background-color:red;"></div>
-  <div class="col-sm-10 col-md-10 col-lg-10" style="background-color:;">
-
-    <div class="container-fluid" style="margin-bottom:0" id="footer">
-      <div id="borderCont">
-          <div class="borderTopDiv"></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-1 col-md-1 col-lg-1" style="background-color:;"></div>
-        <div class="col-sm-10 col-md-10 col-lg-10" style="background-color:;">
-          <center>
-            <div id="footCenter">
-              <div id="footCenterTopCont">
-                <div id="footCenterTop">
-                  <img  id="logoImg2" src="{%  static 'images/blogo1.png' %}" width="112" height="42" alt="">
-                </div>
-              </div>
-              <div id="footCenterBottomCont">
-                <div id="footCenterBottom">
-                  <div id="footerIcons">
-                    <a href="#" style="text-decoration: none; color: #ffffff !important;"><i class="fab fa-instagram" style="text-decoration: none; color:black !important;"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square" style="padding-right:40px;padding-left:40px; text-decoration: none; color: black !important;"></i></a>
-                      <a href="#" ><i class="fab fa-twitter-square" style="text-decoration: none; color:black !important;"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </center>
-        </div>
-        <div class="text-center col-sm-1 col-md-1 col-lg-1" style="background-color:;"></div>
-      </div>
-      <div class="borderDiv"></div>
-    </div>
-    <div id="footerBottom">
-        <div id="footerBottomCont">
-          <p id="footerBottomText"> <i class="far fa-copyright"></i> 2019 2D&C INC. All Rights Reserved</p>
-        </div>
-
-    </div>
-  </div>
-  <div class="text-center col-sm-1 col-md-1 col-lg-1" style="background-color:;"></div>
   </div>
 </div>
 </body>

@@ -1,4 +1,3 @@
-
 //For hover on log
 $( document ).ready(function() {
         $('#blackScreenContCont').fadeIn(1);

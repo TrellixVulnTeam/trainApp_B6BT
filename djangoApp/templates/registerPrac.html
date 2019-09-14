@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<body style="background-color: #d3d3d3">
+
+
+<div class="container" style="background-color: white">
+    <form action="">
+        <div class="form-row">
+        <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div class="form-row">
+            <label for="favColor">Fav Color:</label>
+            <input type="text" id="favColor">
+        </div>
+    </form>
+</div>
+
+
+<div class="column-layout" style="background-color: white">
+
+    <div class="main-column">
+        <h2>Main Column</h2>
+        <p>
+            Paragraph Text
+        </p>
+    </div>
+
+
+    <div class="sidebar-one">
+        <h3>Sidebar one</h3>
+        <p>
+            Paragraph Text
+        </p>
+    </div>
+
+    <div class="sidebar-two">
+        <h3>Sidebar two</h3>
+        <p>
+            Paragraph Text
+        </p>
+    </div>
+
+</div>
+
+
+<div class="call-outs-container">
+
+<div class="call-out">
+    <h4>Feature 1</h4>
+    <p>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+    </p>
+</div>
+
+<div class="call-out">
+    <h4>Feature 2</h4>
+    <p>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+    </p>
+</div>
+
+<div class="call-out">
+    <h4>Feature 3</h4>
+    <p>
+        Paragraph Text <br>
+        Paragraph Text <br>
+        Paragraph Text <br>
+    </p>
+</div>
+
+</div>
+
+
+<div class="fixed-size-container">
+
+    <div class="fixed-size">
+    1
+    </div>
+
+
+    <div class="fixed-size">
+    2
+    </div>
+
+
+    <div class="fixed-size">
+    3
+    </div>
+
+
+    <div class="fixed-size">
+    4
+    </div>
+
+
+    <div class="fixed-size">
+    5
+    </div>
+
+</div>
+
+
+
+<div class="banner">
+    <div class="center-me">
+        Center This Text
+    </div>
+</div>
+
+
+
+<div class="equal-height-container">
+    <div class="first">
+        <p>
+            Text <br>
+            Text <br>
+            Text <br>
+            Text <br>
+        </p>        <p>
+            Text <br>
+            Text <br>
+            Text <br>
+            Text <br>
+        </p>        <p>
+            Text <br>
+            Text <br>
+            Text <br>
+            Text <br>
+        </p>        <p>
+            Text <br>
+            Text <br>
+            Text <br>
+            Text <br>
+        </p>
+    </div>
+
+    <div class="second">
+        <div class="second-a">
+            A
+        </div>
+        <div class="second-b">
+            B
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+{% endblock content %}

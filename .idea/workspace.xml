@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d8abce-ff8d-4753-81aa-02cffc61c0fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/djangoApp/media/lock_open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/static/djangoApp/css/practice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/static/djangoApp/javascript/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/templates/practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoApp/templates/registerPrac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/static/djangoApp/javascript/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/static/djangoApp/javascript/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoApp/train/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoApp/train/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoApp/train/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

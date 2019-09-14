@@ -10,6 +10,11 @@ urlpatterns = [
     path('registerProfile/', views.registerProfile, name='registerProfile'),
     path('registerStats/', views.registerStats, name='registerStats'),
     path('profile/', views.profile, name='profile'),
+
+    # Practice URLS
+    path('registerPrac/', views.registerPrac, name='registerPrac'),
+    path('practice/', views.practice, name='practice'),
+
 ]
 
 if settings.DEBUG:
